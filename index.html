@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Kick Studios - Professional Video Editing Services</title>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Load only essential fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    
+    <!-- Load only essential icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Inline critical CSS -->
+    <style>
+        /* Critical CSS for above-the-fold content */
+        .header { position: fixed; width: 100%; z-index: 1000; background: #fff; }
+        .navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+        .logo a { font-size: 1.5rem; font-weight: 600; text-decoration: none; color: var(--primary-color); }
+        .nav-menu { display: flex; gap: 2rem; list-style: none; margin: 0; padding: 0; }
+        .nav-link { text-decoration: none; color: #333; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Kick Studios</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-btn">Get Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Professional Video Editing Services</h1>
+                    <p>Transform your raw footage into captivating stories. We deliver high-quality video editing for YouTube, Social Media, and Business.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary-btn">Get Started</a>
+                        <a href="#portfolio" class="btn secondary-btn">View Portfolio</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-text">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-text">Client Satisfaction</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-text">Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img 
+                        src="https://www.motionedits.com/wp-content/uploads/2024/07/Why-Hiring-Professional-Video-Editors-Can-Save-You-Time-And-Money-In-2024.webp" 
+                        alt="Video Editing"
+                        width="800"
+                        height="450"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <i class="fas fa-video"></i>
+                            <span>4K Support</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-clock"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Professional video editing solutions for every need</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube Video Editing</h3>
+                    <p>We create engaging and professional YouTube videos that capture your audience's attention.</p>
+                    <div class="service-details">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Custom Thumbnails</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Engaging Transitions</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>SEO Optimization</span>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://p16-capcut-va.ibyteimg.com/tos-maliva-i-6rr7idwo9f-us/1c58c91c145c435db5dee0fa505b07c7~tplv-6rr7idwo9f-image.image" alt="YouTube Editing">
+                            <div class="image-overlay">
+                                <a href="#" class="view-samples">View Samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Social Media Video Editing</h3>
+                    <p>High-quality edits designed specifically for platforms like Instagram, TikTok, and Facebook.</p>
+                    <div class="service-details">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Platform-Specific Formats</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Trending Effects</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Viral Content Optimization</span>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://s39940.pcdn.co/wp-content/uploads/2020/04/woman-editing-video.jpg" alt="Social Media Editing">
+                            <div class="image-overlay">
+                                <a href="#" class="view-samples">View Samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Corporate Video Editing</h3>
+                    <p>Professional editing for presentations, product demos, and company events.</p>
+                    <div class="service-details">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Professional Transitions</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Brand Integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Motion Graphics</span>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://www.videoservice.pro/images/vs/online-editor/corporate-video-editor.jpg" alt="Corporate Video">
+                            <div class="image-overlay">
+                                <a href="#" class="view-samples">View Samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Wedding Video Editing</h3>
+                    <p>Turn your special moments into cinematic memories with our personalized video editing services.</p>
+                    <div class="service-details">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Cinematic Effects</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Music Synchronization</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Highlight Reels</span>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://www.flatworldsolutions.com/featured-images/case-study-wedding-video-editing-australian-client.jpg" alt="Wedding Video">
+                            <div class="image-overlay">
+                                <a href="#" class="view-samples">View Samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music Video Editing</h3>
+                    <p>Create stunning music videos that capture the essence of your music and engage your audience.</p>
+                    <div class="service-details">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Beat Synchronization</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Visual Effects</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Color Grading</span>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04" alt="Music Video">
+                            <div class="image-overlay">
+                                <a href="#" class="view-samples">View Samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Real Estate Video Editing</h3>
+                    <p>Showcase properties with professional video tours that highlight their best features and attract potential buyers.</p>
+                    <div class="service-details">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Drone Footage Editing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Virtual Tours</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Property Highlights</span>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="https://cdn.prod.website-files.com/5fc8b0bbeb92fd7d97c1e3fa/6152fea11ed15843920f9644_record.jpeg" alt="Real Estate Video">
+                            <div class="image-overlay">
+                                <a href="#" class="view-samples">View Samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p class="section-subtitle">Check out our latest video editing projects</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- YouTube Projects -->
+                <div class="portfolio-item youtube">
+                    <div class="portfolio-image">
+                        <img src="https://editor.analyticsvidhya.com/uploads/86337souvik-banerjee-8dOk8JVESxY-unsplash.jpg" 
+                            alt="YouTube Video Project"
+                            width="400"
+                            height="225"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="portfolio-overlay">
+                            <h3>Tech Review Channel</h3>
+                            <p>YouTube Video Editing</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media Projects -->
+                <div class="portfolio-item social">
+                    <div class="portfolio-image">
+                        <img 
+                            src="https://d1bltcifwhkdae.cloudfront.net/uploads/Hero-InstagramStoryTemplatesC-1024x754.jpg" 
+                            alt="Social Media Project"
+                            width="400"
+                            height="225"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="portfolio-overlay">
+                            <h3>Instagram Stories</h3>
+                            <p>Social Media Content</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corporate Projects -->
+                <div class="portfolio-item corporate">
+                    <div class="portfolio-image">
+                        <img 
+                            src="https://i0.wp.com/delhi.cybertizemedia.com/blog/wp-content/uploads/2023/02/production-company-cover.jpg?fit=1000%2C584&ssl=1" 
+                            alt="Corporate Video Project"
+                            width="400"
+                            height="225"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="portfolio-overlay">
+                            <h3>Company Overview</h3>
+                            <p>Corporate Video</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wedding Projects -->
+                <div class="portfolio-item wedding">
+                    <div class="portfolio-image">
+                        <img 
+                            src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_400/v1719732125/catalog/1807298350291070733/goalzf2ewyhaz6tg6pdk.jpg" 
+                            alt="Wedding Video Project"
+                            width="400"
+                            height="225"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="portfolio-overlay">
+                            <h3>Summer Wedding</h3>
+                            <p>Wedding Highlights</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Portfolio Items -->
+                <div class="portfolio-item youtube">
+                    <div class="portfolio-image">
+                        <img 
+                            src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&w=400&q=75" 
+                            alt="Gaming Channel"
+                            width="400"
+                            height="225"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="portfolio-overlay">
+                            <h3>Gaming Channel</h3>
+                            <p>YouTube Gaming Content</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item social">
+                    <div class="portfolio-image">
+                        <img 
+                            src="https://www.stateofdigitalpublishing.com/wp-content/uploads/2023/03/8-TikTok-Content-Strategies-for-Publishers.jpg" 
+                            alt="TikTok Content"
+                            width="400"
+                            height="225"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="portfolio-overlay">
+                            <h3>Viral TikTok</h3>
+                            <p>Social Media Edit</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta">
+                <a href="portfolio.html" class="portfolio-btn">
+                    <span>See Full Portfolio</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="intro">
+        <div class="container">
+            <h2>Transform Your Videos with Professional Editing</h2>
+            <p class="subtitle">We specialize in creating stunning visuals to elevate your content.</p>
+            <div class="intro-features">
+                <div class="feature">
+                    <i class="fas fa-film"></i>
+                    <h3>Professional Editing</h3>
+                    <p>High-quality video editing with attention to detail</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-magic"></i>
+                    <h3>Visual Effects</h3>
+                    <p>Stunning effects and transitions that captivate</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>Quick Turnaround</h3>
+                    <p>Fast delivery without compromising quality</p>
+                </div>
+            </div>
+            <a href="portfolio.html" class="cta-button">See Our Work</a>
+        </div>
+    </section>
+
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Transform Your Videos?</h2>
+                <p>Get professional video editing services tailored to your needs</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button primary">
+                        <i class="fas fa-comments"></i>
+                        <span>Request a Free Consultation</span>
+                    </a>
+                    <a href="tel:+1234567890" class="cta-button secondary">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Us Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Affordable Video Editing Packages</h2>
+                <p class="section-subtitle">Choose the perfect package for your video editing needs</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <div class="plan-name">Basic Plan</div>
+                        <div class="plan-subtitle">For Social Media & Personal Projects</div>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">3,000</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 5 minutes of video</li>
+                            <li><i class="fas fa-check"></i> 1 round of revisions</li>
+                            <li><i class="fas fa-check"></i> 1 format output</li>
+                            <li><i class="fas fa-check"></i> Basic color correction</li>
+                            <li><i class="fas fa-check"></i> Standard transitions</li>
+                            <li><i class="fas fa-check"></i> 48-hour delivery</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="cta-button">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card popular" data-aos="fade-up" data-aos-delay="100">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="pricing-header">
+                        <div class="plan-name">Pro Plan</div>
+                        <div class="plan-subtitle">For YouTubers and Brands</div>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">7,000</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 15 minutes of video</li>
+                            <li><i class="fas fa-check"></i> 2 rounds of revisions</li>
+                            <li><i class="fas fa-check"></i> 2 format outputs</li>
+                            <li><i class="fas fa-check"></i> Advanced color grading</li>
+                            <li><i class="fas fa-check"></i> Custom transitions</li>
+                            <li><i class="fas fa-check"></i> 24-hour delivery</li>
+                            <li><i class="fas fa-check"></i> Motion graphics</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="cta-button">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <div class="plan-name">Enterprise Plan</div>
+                        <div class="plan-subtitle">For Companies and Professionals</div>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">15,000</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 30 minutes of video</li>
+                            <li><i class="fas fa-check"></i> Unlimited revisions</li>
+                            <li><i class="fas fa-check"></i> 4 format outputs</li>
+                            <li><i class="fas fa-check"></i> Professional color grading</li>
+                            <li><i class="fas fa-check"></i> Premium transitions</li>
+                            <li><i class="fas fa-check"></i> Priority 12-hour delivery</li>
+                            <li><i class="fas fa-check"></i> Advanced motion graphics</li>
+                            <li><i class="fas fa-check"></i> Custom branding</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="cta-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-package" data-aos="fade-up" data-aos-delay="300">
+                <div class="custom-package-content">
+                    <div class="custom-package-text">
+                        <h3>Need a Custom Package?</h3>
+                        <p>Contact us for custom video editing services based on your requirements.</p>
+                    </div>
+                    <a href="#contact" class="cta-button outline">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p class="section-subtitle">Get in touch for your video editing needs</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-form-wrapper">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Get a Quote</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@videoedits.com">info@videoedits.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919876543210">+91 98765 43210</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Film City Road, Goregaon East<br>Mumbai, Maharashtra 400063</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Pinterest">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Behance">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Kick Studios</h3>
+                <p>Professional video editing services that bring your vision to life. We transform raw footage into compelling stories.</p>
+                <ul class="services-list">
+                    <li>YouTube Videos</li>
+                    <li>Social Media Content</li>
+                    <li>Corporate Videos</li>
+                    <li>Wedding Films</li>
+                    <li>Music Videos</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> info@videoedits.com</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Film City Road, Goregaon East<br>Mumbai, Maharashtra 400063</p>
+                </div>
+            </div>
+            
+            <div class="footer-section newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kick Studios. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

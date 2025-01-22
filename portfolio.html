@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kick Studios</title>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Load only essential fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    
+    <!-- Load only essential icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Kick Studios</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="index.html#contact" class="nav-btn">Get Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-hero">
+            <div class="container">
+                <h1 data-aos="fade-up">Our Creative Portfolio</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Discover our exceptional video editing projects that bring stories to life</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filters-section">
+            <div class="container">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- YouTube Projects -->
+                    <div class="portfolio-item youtube">
+                        <div class="portfolio-image">
+                            <img src="https://editor.analyticsvidhya.com/uploads/86337souvik-banerjee-8dOk8JVESxY-unsplash.jpg" alt="Gaming Channel Highlights">
+                            <div class="portfolio-overlay">
+                                <h3>Gaming Channel Highlights</h3>
+                                <p>YouTube Gaming Content</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item social">
+                        <div class="portfolio-image">
+                            <img src="https://www.stateofdigitalpublishing.com/wp-content/uploads/2023/03/8-TikTok-Content-Strategies-for-Publishers.jpg" alt="TikTok Viral Campaign">
+                            <div class="portfolio-overlay">
+                                <h3>TikTok Viral Campaign</h3>
+                                <p>Social Media Marketing</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item corporate">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg" alt="Tech Company Overview">
+                            <div class="portfolio-overlay">
+                                <h3>Tech Company Overview</h3>
+                                <p>Corporate Video</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item wedding">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1244627/pexels-photo-1244627.jpeg" alt="Beachside Wedding">
+                            <div class="portfolio-overlay">
+                                <h3>Beachside Wedding</h3>
+                                <p>Wedding Cinematography</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item youtube">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg" alt="Travel Vlog Series">
+                            <div class="portfolio-overlay">
+                                <h3>Travel Vlog Series</h3>
+                                <p>YouTube Travel Content</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item social">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3943882/pexels-photo-3943882.jpeg" alt="Instagram Stories">
+                            <div class="portfolio-overlay">
+                                <h3>Instagram Stories Campaign</h3>
+                                <p>Social Media Content</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item corporate">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg" alt="Product Launch">
+                            <div class="portfolio-overlay">
+                                <h3>Product Launch Video</h3>
+                                <p>Corporate Marketing</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item wedding">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1779414/pexels-photo-1779414.jpeg" alt="Garden Wedding">
+                            <div class="portfolio-overlay">
+                                <h3>Garden Wedding Highlights</h3>
+                                <p>Wedding Video</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item youtube">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1116035/pexels-photo-1116035.jpeg" alt="Cooking Channel">
+                            <div class="portfolio-overlay">
+                                <h3>Cooking Channel Episodes</h3>
+                                <p>YouTube Culinary Content</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item social">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg" alt="Social Campaign">
+                            <div class="portfolio-overlay">
+                                <h3>Fashion Brand Campaign</h3>
+                                <p>Social Media Marketing</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item corporate">
+                        <div class="portfolio-image">
+                            <img src="https://ispe.org/sites/default/files/styles/site_750_x_420/public/2024-07/030%20-%20ISPE%20-%20Lisbon%202024-750px.jpg?itok=NTy1GHgj" alt="Annual Conference">
+                            <div class="portfolio-overlay">
+                                <h3>Annual Conference Highlights</h3>
+                                <p>Corporate Event Coverage</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item wedding">
+                        <div class="portfolio-image">
+                            <img src="https://www.kalkifashion.com/blogs/wp-content/uploads/2023/01/60e548b58a373a7f865900fd_04d99656_bf8a_4a2d_a2b2_30833018c575-1024x680.jpg" alt="Destination Wedding">
+                            <div class="portfolio-overlay">
+                                <h3>Destination Wedding Film</h3>
+                                <p>Cinematic Wedding Video</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Modal -->
+        <div class="video-modal" id="videoModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="video-container">
+                    <iframe id="videoFrame" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Kick Studios</h3>
+                <p>Professional video editing services that bring your vision to life. We transform raw footage into compelling stories.</p>
+                <ul class="services-list">
+                    <li>YouTube Videos</li>
+                    <li>Social Media Content</li>
+                    <li>Corporate Videos</li>
+                    <li>Wedding Films</li>
+                    <li>Music Videos</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> info@videoedits.com</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Film City Road, Goregaon East<br>Mumbai, Maharashtra 400063</p>
+                </div>
+            </div>
+            
+            <div class="footer-section newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kick Studios. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
